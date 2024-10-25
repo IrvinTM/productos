@@ -8,7 +8,7 @@ Este es un proyecto web desarrollado con Java utilizando **Spring Boot**, **Hibe
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrate de tener instalados los siguientes componentes en tu máquina:
+Antes de comenzar tener instalados lo siguiente
 
 - **Java 17** o superior
 - **Maven** o superior
