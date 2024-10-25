@@ -68,4 +68,16 @@ server {
 }
 ```
 
-### Para el certificado SSL podriamos usar cloudflare o instalarlo localmente
+### Activar la configuración
+    
+```bash
+sudo ln -s /etc/nginx/sites-available/tu-dominio.com /etc/nginx/sites-enabled/
+```
+
+### Reiniciar Nginx
+
+```bash
+sudo systemctl restart nginx
+```
+
+#### Para el certificado SSL podriamos usar cloudflare o instalarlo localmente
