@@ -17,7 +17,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes componentes en 
 Clona el repositorio a tu máquina local usando el siguiente comando:
 
 ```bash
-git clone https://github.com/usuario/proyecto-productos.git
+git clone https://github.com/IrvinTM/productos.git
 ```
 ### Cambiar al directorio del proyecto
 
