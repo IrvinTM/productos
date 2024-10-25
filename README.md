@@ -6,6 +6,26 @@ Video de la aplicación en funcionamiento:
 
 Este es un proyecto web desarrollado con Java utilizando **Spring Boot**, **Hibernate/JPA** para la persistencia, y **MySQL** como base de datos. El frontend está desarrollado en **React** con **Vite**, y está configurado para ejecutarse dentro de un contenedor Docker.
 
+## Descripción del proyecto
+
+#### Diseño
+
+En este proyecto, he implementado una arquitectura basada en Spring Boot, donde he seguido un diseño estructurado que separa los controladores, repositorios, servicios y entidades para asegurar una mayor modularidad y mantenibilidad del código.
+
+#### Inyección de Dependencias
+
+Utilicé el principio de inyección de dependencias proporcionado por Spring Boot. Mediante el uso de anotaciones como @Autowired, @Service, entre otros los servicios y repositorios se inyectan automáticamente donde son necesarios, facilitando la modularidad y la flexibilidad en la construcción de la aplicación. Esto permite un código más limpio y fácilmente testeable.
+Integración con el Frontend
+
+#### Frontend
+El frontend está desarrollado con React, utilizando Vite para la creación y construcción rápida de la aplicación, y está escrito en TypeScript para un mejor control de tipos y mayor robustez del código. Además, se implementó una biblioteca de componentes (shadcn) para proporcionar una experiencia de usuario más intuitiva y amigable. Esto permite un diseño más uniforme y componentes reutilizables, mejorando tanto la productividad como la consistencia visual de la aplicación.
+
+#### Docker Compose
+
+He configurado Docker Compose para facilitar la integración entre el frontend y backend, asegurando que ambos servicios puedan ejecutarse de manera eficiente. Con maven, puedo iniciar el backend que utiliza Spring Boot y la base de datos MySQL, junto con el frontend en React, garantizando una ejecución coordinada entre todos los componentes.
+
+Este enfoque modular y escalable facilita el mantenimiento del proyecto, permitiendo una clara separación de responsabilidades y asegurando que cada capa pueda ser modificada y testeada de manera independiente.
+
 ## Requisitos previos
 
 Antes de comenzar tener instalados lo siguiente
