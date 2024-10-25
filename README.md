@@ -15,8 +15,7 @@ En este proyecto, he implementado una arquitectura basada en Spring Boot, donde 
 
 #### Inyección de Dependencias
 
-Utilicé el principio de inyección de dependencias proporcionado por Spring Boot. Mediante el uso de anotaciones como @Autowired, @Service, entre otros los servicios y repositorios se inyectan automáticamente donde son necesarios, facilitando la modularidad y la flexibilidad en la construcción de la aplicación. Esto permite un código más limpio y fácilmente testeable.
-Integración con el Frontend
+Utilicé el principio de inyección de dependencias proporcionado por Spring Boot. Mediante el uso de anotaciones como @Autowired, @Service, entre otros como @NotNull para validaciones. Los servicios y repositorios se inyectan automáticamente donde son necesarios, facilitando la modularidad y la flexibilidad en la construcción de la aplicación. Esto permite un código más limpio y fácilmente testeable.
 
 #### Frontend
 El frontend está desarrollado con React, utilizando Vite para la creación y construcción rápida de la aplicación, y está escrito en TypeScript para un mejor control de tipos y mayor robustez del código. Además, se implementó una biblioteca de componentes (shadcn) para proporcionar una experiencia de usuario más intuitiva y amigable. Esto permite un diseño más uniforme y componentes reutilizables, mejorando tanto la productividad como la consistencia visual de la aplicación.
