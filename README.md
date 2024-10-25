@@ -1,5 +1,8 @@
 # Proyecto de Gestión de Productos
 
+Video de la aplicación en funcionamiento:
+https://github.com/user-attachments/assets/4cd71189-c5a0-4ade-b64f-5a8078ba9511
+
 Este es un proyecto web desarrollado con Java utilizando **Spring Boot**, **Hibernate/JPA** para la persistencia, y **MySQL** como base de datos. El frontend está desarrollado en **React** con **Vite**, y está configurado para ejecutarse dentro de un contenedor Docker.
 
 ## Requisitos previos
