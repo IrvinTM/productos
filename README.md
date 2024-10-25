@@ -12,22 +12,26 @@ Antes de comenzar, asegúrate de tener instalados los siguientes componentes en 
 
 ## Local
 
-### 1. Clonar el repositorio
+###  Clonar el repositorio
 
 Clona el repositorio a tu máquina local usando el siguiente comando:
 
 ```bash
 git clone https://github.com/usuario/proyecto-productos.git
-cd proyecto-productos
+```
+### Cambiar al directorio del proyecto
+
+```bash
+cd productos
 ```
 
-### 2. Instalar dependencias con maven 
+###  Instalar dependencias con maven 
 
 ```bash
 mvn install
 ```
 
-### 3. Iniciar la aplicación
+###  Iniciar la aplicación
 
 ```bash
  mvn spring-boot:run  
